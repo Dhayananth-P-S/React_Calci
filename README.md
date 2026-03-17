@@ -48,7 +48,7 @@ Upload to GitHub Pages for free hosting.
 ## PROGRAM
 
 Main.jsx
-```
+```jsx
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
@@ -61,7 +61,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 );
 ```
 index.css
-```
+```css
 body{
   background:#222;
   font-family: Arial;
@@ -118,7 +118,7 @@ button:hover{
 ```
 app.jsx
 
-```
+```jsx
 import { useState } from "react";
 
 function App() {
